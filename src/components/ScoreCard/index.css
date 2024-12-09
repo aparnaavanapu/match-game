@@ -1,0 +1,73 @@
+@media screen and (max-width:576px){
+.scorecard-bg-container{
+    background-image:url("https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png");
+    background-size:cover;
+ }
+ .trophy-img{
+    width:50%;
+ }
+}
+ .scorecard-bg-container{
+        background-image:url("https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat; 
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        height: 100vh; /* Set full viewport height */
+        width: 100vw;
+        padding:20px;
+        
+        
+ }
+
+
+
+.play-again-btn{
+    display: flex; /* To align content inside the button */
+    justify-content: center; /* Center text and image horizontally */
+    align-items: center; /* Center text and image vertically */
+    gap: 10px; /* Add space between the image and text */
+    background-color: #cf60c8; /* Background color */
+    border: none; /* Remove default border */
+    border-radius: 12px; /* Rounded corners */
+    color: #ffffff; /* Text color */
+    font-family: 'Roboto', sans-serif; /* Font family */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    padding: 10px 20px; /* Padding inside the button */
+    cursor: pointer;
+    margin-top:20px;
+    margin-bottom:0px; 
+    outline:none;
+}
+.reset-img{
+    width:20px;
+    height:auto;
+}
+.display-score-text{
+    color:#ffffff;
+    font-family:"Roboto";
+    font-size:22px;
+    font-weight:600;
+    padding:0px;
+    margin:0px;
+}
+.display-score{
+
+    color:#ffffff;
+    font-family:"Roboto";
+    font-size:28px;
+    font-weight:700;
+    margin:10px;
+    
+}
+.trophy-img{
+    width:20%;
+    padding-top:20px;
+    margin-top:10px;
+    
+}
+

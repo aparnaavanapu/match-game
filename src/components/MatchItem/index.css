@@ -1,0 +1,14 @@
+.thumbnail-img{
+    width:100%;
+    margin:10px;
+}
+.btn{
+    background:none;
+    border:none;
+    outline:none;
+}
+
+li{
+    list-style-type:none;
+    width:20%;
+}
